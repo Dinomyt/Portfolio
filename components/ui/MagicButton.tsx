@@ -1,14 +1,14 @@
 "use client";
 import React, { ReactNode } from "react";
-import { cn } from "@/lib/utils";
+
 
 const MagicButton = ({
-  title,icon,position, handleClick,otherClasses
+  title,icon,position,otherClasses
 }: {
   title:string;
   icon:ReactNode;
   position:string;
-  handleClick?: () => void;
+//   handleClick?: () => void;
   otherClasses?:string
 }) => {
   return (
