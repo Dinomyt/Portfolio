@@ -3,6 +3,8 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Hero from "@/components/ui/Hero";
 import { navItems } from "@/data";
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 
 
 
