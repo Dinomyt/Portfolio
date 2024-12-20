@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact me Copie My Email",
+      title: "Contact me",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -72,37 +72,65 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Interactive Galaxy Tour",
-      des: "Embark on a visually stunning journey through galaxies with this immersive 3D simulation using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Component Organizer",
+      des: "The Component organizer transform raw data from Micro-Vu into easily readable data, performs SPC-Dimensional checks, and automatically labels which press the data belongs too based off of perimeters",
+      img: "",
+      iconLists: [],
+      carouselImages: [
+        "/co2.png",
+        "/co3.png",
+        "/co1.png",
+      ],
     },
     {
       id: 2,
-      title: "NexMeet - Virtual Meeting Platform",
-      des: "A streamlined virtual meeting solution with real-time chat, screen sharing, and recordings.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/yourgithublink",
+      title: "Molding Process Settings Condition Automation",
+      des: "The MPC Automation program grabs data from over 100 manufacturing equipment machinery and performs checks to ensure settings are within specifications",
+      img: "",
+      iconLists: [],
+      carouselImages: [
+        "/mpc1.svg",
+        "/mpc2.svg",
+        "/mpc3.svg",
+        "/mpc4.svg",
+        "/mpc5.svg",
+        "/mpc6.svg",
+        "/mpc7.svg",
+
+      ],
     },
     {
       id: 3,
-      title: "AI-Powered Design Tool",
-      des: "A SaaS platform to create beautiful designs with AI-assisted tools and integrated payment systems.",
+      title: "Conga Query Migration",
+      des: "Conga Query Migration project migrated data from Salesforce Report to automatically fill in data forms for customers",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/yourgithublink",
+      iconLists: [],
+      carouselImages: [
+        "/cq1.png",
+        "/cq2.png",
+        "/cq3.png",
+        "/cq4.png",
+        "/cq5.png",
+        "/cq6.png",
+
+      ],
     },
-    {
-      id: 4,
-      title: "3D Animated E-Commerce Site",
-      des: "A unique e-commerce experience featuring interactive 3D product displays and smooth animations.",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/yourgithublink",
-    },
+    // {
+    //   id: 4,
+    //   title: "3D Animated E-Commerce Site",
+    //   des: "A unique e-commerce experience featuring interactive 3D product displays and smooth animations.",
+    //   img: "/p4.svg",
+    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    //   carouselImages: [
+    //     "/carousel-img10.png",
+    //     "/carousel-img11.png",
+    //     "/carousel-img12.png",
+    //   ],
+    // },
   ];
+  
+  
+  
   
   export const testimonials = [
     {

@@ -1,5 +1,7 @@
 import Grid from "@/components/Grid";
+import ProjectsCarousel from "@/components/ProjectsCarousel";
 import RecentProjects from "@/components/RecentProjects";
+
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Hero from "@/components/ui/Hero";
 import { navItems } from "@/data";
@@ -9,7 +11,7 @@ export const fetchCache = "force-no-store";
 
 
 
-
+ 
 
 export default function Home() {
   return (
@@ -19,7 +21,8 @@ export default function Home() {
       <FloatingNav navItems={navItems}/>
       <Hero/>
       <Grid/>
-      <RecentProjects/>
+      {/* <RecentProjects/> */}
+      <ProjectsCarousel/>
     </div>
    </main>
   );
