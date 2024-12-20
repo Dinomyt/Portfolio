@@ -1,6 +1,5 @@
 import Grid from "@/components/Grid";
 import ProjectsCarousel from "@/components/ProjectsCarousel";
-import RecentProjects from "@/components/RecentProjects";
 
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Hero from "@/components/ui/Hero";
@@ -21,7 +20,6 @@ export default function Home() {
       <FloatingNav navItems={navItems}/>
       <Hero/>
       <Grid/>
-      {/* <RecentProjects/> */}
       <ProjectsCarousel/>
     </div>
    </main>

@@ -8,7 +8,7 @@ const ProjectsCarousel = () => {
         My Real World Application Projects
       </h2>
       <div className="flex flex-wrap justify-center gap-12">
-        {projects.map(({ id, title, des, img, iconLists, carouselImages }) => (
+        {projects.map(({ id, title, des, iconLists, carouselImages }) => (
           <div
             key={id}
             className="w-[320px] sm:w-[400px] bg-white p-6 rounded-lg shadow-lg flex flex-col items-center"
