@@ -1,4 +1,5 @@
 export const navItems = [
+    { name: "Home", link: "/" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
@@ -27,7 +28,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI-Powered Code Review Tool",
+      title: "My Current Stack",
       description: "Improving code quality using AI-based suggestions and analysis.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -58,8 +59,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "E-Learning Platform for Developers",
-      description: "Access coding tutorials, challenges, and mentorship in one place.",
+      title: "Contact me Copie My Email",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
