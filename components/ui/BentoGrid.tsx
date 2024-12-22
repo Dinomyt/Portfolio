@@ -59,6 +59,14 @@ export const BentoGridItem = ({
     setCopied(true)
   }
 
+  const handleResume = () => {
+    const resumeUrl = '/Resume.pdf'; // Ensure the resume is in the public folder
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'My_Resume.pdf'; // The name of the file to download
+    link.click();
+  };
+
   return (
     <div
       className={cn(
@@ -177,6 +185,14 @@ export const BentoGridItem = ({
                 position="left"
                 otherClasses="z-10"
                 handleClick={handleCopy}
+    
+              />
+                <MagicButton
+                title={"Download my Resume"}
+                icon={<IoCopyOutline/>}
+                position="left"
+                otherClasses="z-10"
+                handleClick={handleResume}
     
               />
             </div>
